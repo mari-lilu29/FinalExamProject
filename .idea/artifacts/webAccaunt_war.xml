@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webAccaunt:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webAccaunt</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="webAccount-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webAccaunt:war exploded" />
+    </root>
+  </artifact>
+</component>
